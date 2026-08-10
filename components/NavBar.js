@@ -9,12 +9,7 @@ export const NavBar = () => {
         <Link href="/" className={styles.link}>
           Home
         </Link>
-        <Link
-          href="/blog"
-          className={styles.link}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <Link href="/blog" className={styles.link}>
           Blog
         </Link>
         <a

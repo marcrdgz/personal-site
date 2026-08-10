@@ -1,6 +1,5 @@
 import React from "react";
 import { Footer } from "../components/Footer";
-import GitHubStars from "../components/GitHubStars";
 import { Main } from "../components/Main";
 import { NavBar } from "../components/NavBar";
 import { SiteMeta } from "../components/SiteMeta";
@@ -14,7 +13,6 @@ export default function Home() {
       <main>
         <NavBar />
         <Main />
-        <GitHubStars />
         <Footer />
       </main>
     </div>

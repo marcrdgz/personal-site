@@ -1,3 +1,4 @@
+import { siteConfig } from "../lib/site";
 import styles from "../styles/Footer.module.css";
 
 export const Footer = () => {
@@ -14,11 +15,19 @@ export const Footer = () => {
         </a>
         <a
           className={styles.socialMedia}
-          href="https://github.com/marcrdez"
+          href="https://github.com/marcrdgz"
           target="_blank"
           rel="noreferrer"
         >
           GitHub
+        </a>
+        <a
+          className={styles.socialMedia}
+          href={siteConfig.devTo}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Dev.to
         </a>
         <a
           className={styles.socialMedia}
