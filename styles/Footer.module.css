@@ -43,13 +43,26 @@
 }
 
 @media (max-width: 768px) {
+  .component {
+    height: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 1rem 2rem;
+  }
+
   .divSocialMedia {
     gap: 1rem;
-    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
   }
 
   .year {
-    padding: 3rem;
+    position: relative;
+    height: auto;
+    padding: 0;
+    justify-content: center;
+    right: auto;
     font-weight: 300;
   }
 }
