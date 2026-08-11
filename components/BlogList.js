@@ -24,11 +24,6 @@ export const BlogList = ({ posts }) => {
               )}
               <div className={styles.meta}>
                 <time dateTime={post.date}>{formatDate(post.date)}</time>
-                {post.tags.length > 0 && (
-                  <span className={styles.tags}>
-                    {post.tags.map((tag) => `#${tag}`).join(" ")}
-                  </span>
-                )}
               </div>
             </Link>
           </article>

@@ -17,11 +17,6 @@ export const BlogPost = ({ post }) => {
       <h1 className={styles.title}>{post.title}</h1>
       <div className={styles.meta}>
         <time dateTime={post.date}>{formatDate(post.date)}</time>
-        {post.tags.length > 0 && (
-          <span className={styles.tags}>
-            {post.tags.map((tag) => `#${tag}`).join(" ")}
-          </span>
-        )}
       </div>
       <div
         className={styles.body}
