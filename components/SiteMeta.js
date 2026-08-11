@@ -44,7 +44,7 @@ export function SiteMeta({
       <meta name="twitter:description" content={pageDescription} />
       <meta name="twitter:creator" content={siteConfig.twitterHandle} />
 
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.svg" />
     </Head>
   );
 }
