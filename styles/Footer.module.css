@@ -7,6 +7,14 @@
   position: relative;
 }
 
+.home {
+  height: 20vh;
+}
+
+.home .year {
+  height: 20vh;
+}
+
 .divSocialMedia {
   max-width: 75vw;
   gap: 1.5rem;
@@ -43,6 +51,10 @@
 }
 
 @media (max-width: 768px) {
+  .home {
+    height: auto;
+  }
+
   .component {
     height: auto;
     flex-direction: column;

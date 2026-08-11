@@ -1,9 +1,11 @@
 import { siteConfig } from "../lib/site";
 import styles from "../styles/Footer.module.css";
 
-export const Footer = () => {
+export const Footer = ({ className }) => {
+  const classes = [styles.component, className].filter(Boolean).join(" ");
+
   return (
-    <div className={styles.component}>
+    <div className={classes}>
       <div className={styles.divSocialMedia}>
         <a
           className={styles.socialMedia}
